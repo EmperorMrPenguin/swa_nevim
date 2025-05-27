@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie</title>
+    <link rel="stylesheet" href="galerie.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav><!--zde je navbar-->
+        <ul>
+            <div class="navbar-logo"><a href="../../index.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg></a></div>
+            <div class="navbar-logo"><a href="https://www.jmk.cz/" ><img class="svg" src="../../foto/uvod foto/jmk_logo.svg" width="40"></a></div>
+            <div class="navbar-logo"><a href="https://www.sstebrno.cz"><img class="svg" src="../../foto/uvod foto/logo_currentColor.svg" width="40"></a></div>
+            <div class="navbar-logo"><a href="https://www.youtube.com/@VitekUniverse"><div class="navbar-image"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg></a></div></div>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Ostatní  <i class="fa fa-angle-down"></i></a>
+                <div class="dropdown-content">
+                  <a href="galerie.html" >Galerie</a>
+                  <a href="mapa.html" >Mapa měst</a>
+                  <a href="shit_post.html" >Tady neklikej</a>
+                </div>
+            <li class="jaroslav"><a href="jaroslav.html" >Jaroslav Ráček  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM169.8 165.3c7.9-22.3 29.1-37.3 52.8-37.3l58.3 0c34.9 0 63.1 28.3 63.1 63.1c0 22.6-12.1 43.5-31.7 54.8L280 264.4c-.2 13-10.9 23.6-24 23.6c-13.3 0-24-10.7-24-24l0-13.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1c0-8.4-6.8-15.1-15.1-15.1l-58.3 0c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg></a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Seznam  <i class="fa fa-angle-down"></i></a>
+                <div class="dropdown-content">
+                  <a href="#breclav" >Břeclav</a>
+                  <a href="#mokra" >Mokrá-Horákov</a>
+                  <a href="#brno" >Brno</a>
+                  <a href="#kurim" >Kuřim</a>
+                  <a href="#slavkov" >Slavkov u Brna</a>
+                  <a href="#ostatni" >Ostatní</a>
+                  <a href="#My" >My</a>
+                </div>    
+          </ul>
+    </nav><!--zde končí navbar-->
+
+
+    <section>
+        <h1 id="breclav">Břeclav</h1><!--název města-->
+        <div class ="gallery">
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/bratislava.jpg" alt="bratislava"><!--změn src na fotku-->
+                <div class="overlay-text">Bratislava</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/Břeclav_znak.png" alt="znak">
+                <div class="overlay-text">Znak&nbspBřeclavy</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/croasant albert.png" alt="croassant">
+                <div class="overlay-text">Croassant</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/cyklostezka.jpg" alt="cyklostezka">
+                <div class="overlay-text">Cyklostezka</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/Flag_of_Breclav.svg.png" alt="Vlajka">
+                <div class="overlay-text">Vlajka&nbspBřeclavi</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/hokej.png" alt="Hokej">
+                <div class="overlay-text">Hokej</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/hrad.png" alt="hrad">
+                <div class="overlay-text">Hrad</div>
+            </div>
+        
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/kostel.png" alt="kostel">
+                <div class="overlay-text">Kostel</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/kradou.png" alt="kradou">
+                <div class="overlay-text">Cigán</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/krozovatka.png" alt="křižovatka">
+                <div class="overlay-text">křižovatka</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/nadrazi.png" alt="Nádraží">
+                <div class="overlay-text">Nádraží</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/nemocnice.png" alt="nemocnice">
+                <div class="overlay-text">Nemocnice</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/pivo.jpg" alt="Pivo">
+                <div class="overlay-text">Pivo&nbspKanec</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/posta.png" alt="Pošta">
+                <div class="overlay-text">Pošta</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/postorna uvnitr.jpg" alt="postorna">
+                <div class="overlay-text">Poštorná Břeclav</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/racio.png" alt="racio">
+                <div class="overlay-text">Racio</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/shopping_1.png" alt="shopping_1">
+                <div class="overlay-text">Shoping</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/slovacka.jpg" alt="slovacka">
+                <div class="overlay-text">Slovácká</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/tgm.jpg" alt="tgm">
+                <div class="overlay-text">T.G.M.</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/ufo.png" alt="ufo">
+                <div class="overlay-text">Ufo</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/vodarna_cesta.jpg" alt="vodarna cesta">
+                <div class="overlay-text">Vodárna&nbspcesta</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/vodarna_les.jpg" alt="vodarna les">
+                <div class="overlay-text">Vodárna&nbsples</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/breclav foto/you_died.png" alt="you died">
+                <div class="overlay-text">You&nbspdied</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 id="mokra">Mokrá-Horákov</h1><!--název města-->
+        <div class ="gallery">
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/koupaliste_mokrak.png" alt="Koupaliště"><!--změn src na fotku-->
+                <div class="overlay-text">Koupaliště&nbspMokrák</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Mokrá_Horákov_autobus.jpg" alt="Autobus">
+                <div class="overlay-text">Autobus</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Mokrá_Horákov_kouzelný_kozy.jpg" alt="Kouzelný kozy">
+                <div class="overlay-text">Kouzelný&nbspkozy</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Mokrá_Horákov_Lavička.jpg" alt="Lavička">
+                <div class="overlay-text">Lavička</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Mokrá_Horákov_Obchod_CBA.jpg" alt="ObchodCBA">
+                <div class="overlay-text">Obchod&nbspCBA</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Mokrá_Horákov_Rozcestí.jpg" alt="Rozcestí">
+                <div class="overlay-text">Rozcestí</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Mokrá_Horákov_U_Jelena_uvnitř.jpg" alt="Ranč U Jelena">
+                <div class="overlay-text">Ranč&nbspU&nbspJelena</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Mokrá_Horákov_U_Zajíčka_zvenku.jpg" alt="U Zajíčka">
+                <div class="overlay-text">Restaurace&nbspU&nbspZajíčka</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Znak_obce_Mokrá_-_Horákov.jpg" alt="Znak">
+                <div class="overlay-text">Znak Mokré&nbspHorákov</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Flag_of_Mokra-Horakov.jpg" alt="Vlajka">
+                <div class="overlay-text">Vlajka&nbspMokré&nbspHorákov</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Mokrá_Horákov_Closed.jpg" alt="Cedule">
+                <div class="overlay-text">Cedule&nbspZavřeno</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Mokrá_Horákov_U_Jelena_jídlo.jpg" alt="Ranč U Jelena uvnitř">
+                <div class="overlay-text">Ranč U&nbspJelena&nbsp&nbspjídlo</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Mokrá_Lavička_výhled.jpg" alt="výhled">
+                <div class="overlay-text">Výhled</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Mokrá_V_Bazénu.jpg" alt="Bazén">
+                <div class="overlay-text">Koupaliště&nbspMokrák&nbspBazén</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Mokrá_na_skluzavce.jpg" alt="Skluzavka">
+                <div class="overlay-text">Skluzavka</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Mokrá_U_Zajicka_uvnitř.jpg" alt="U Zajíčka jídlo">
+                <div class="overlay-text">Restaurace U&nbspZajíčka&nbsp&nbspjídlo</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/Mokrá_Void.png" alt="Void">
+                <div class="overlay-text">Konec&nbspMokré</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/mokra foto/tung_tung_sahur.png" alt="tung_tung_sahur">
+                <div class="overlay-text">Tung&nbspTung&nbspTung&nbspTung&nbspTung&nbspSahur</div>
+            </div>
+        </div>    
+    </section>
+
+    <section>
+        <h1 id="brno">Brno</h1><!--název města-->
+        <div class ="gallery">
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/brněnské drak.png" alt="Koupaliště"><!--změn src na fotku-->
+                <div class="overlay-text">Brněnský&nbspdrak</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/bystrc pristav.png" alt="přístav"><!--změn src na fotku-->
+                <div class="overlay-text">Přístav</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/divadlo.jpg" alt="divadlo"><!--změn src na fotku-->
+                <div class="overlay-text">Divadlo</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/hlavni nadrazi.png" alt="nádraží"><!--změn src na fotku-->
+                <div class="overlay-text">Hlavní&nbspnádraží</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/hrad veveří.png" alt="veveří"><!--změn src na fotku-->
+                <div class="overlay-text">Hrad&nbspVeveří</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/kasematy.jpg" alt="kasematy"><!--změn src na fotku-->
+                <div class="overlay-text">Kasematy</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/namesti svobody.png" alt="svobody"><!--změn src na fotku-->
+                <div class="overlay-text">Náměstí&nbspSvobody</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/orloj.png" alt="orloj"><!--změn src na fotku-->
+                <div class="overlay-text">Orloj</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/petrov oltar.jpg" alt="oltar"><!--změn src na fotku-->
+                <div class="overlay-text">Petrov</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/sste.png" alt="sste"><!--změn src na fotku-->
+                <div class="overlay-text">SŠTE</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/stara radnice.png" alt="radnice"><!--změn src na fotku-->
+                <div class="overlay-text">Radnice</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/veveří interier.png" alt="veveří"><!--změn src na fotku-->
+                <div class="overlay-text">Veveří</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/vlajka brna.jpg" alt="vlajka"><!--změn src na fotku-->
+                <div class="overlay-text">vlajka&nbspBrna</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/vlak zpoždění.png" alt="zpoždění"><!--změn src na fotku-->
+                <div class="overlay-text">Zpoždění</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/zelny trh.png" alt="trh"><!--změn src na fotku-->
+                <div class="overlay-text">Zelný&nbsptrh</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/znak brna.png" alt="znak"><!--změn src na fotku-->
+                <div class="overlay-text">znak&nbspBrna</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/brno foto/špilberk.png" alt="špilberk"><!--změn src na fotku-->
+                <div class="overlay-text">Špilberk</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+        </div>    
+    </section>
+
+    <section>
+        <h1 id="kurim">Kuřim</h1><!--název města-->
+        <div class ="gallery">
+            <div class="image-wrapper">
+                <img src="../../foto/kurim foto/dítě_kuřim.jpg" alt="dítě"><!--změn src na fotku-->
+                <div class="overlay-text">Dítě</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/kurim foto/dědek_kuřim.jpg" alt="dědek"><!--změn src na fotku-->
+                <div class="overlay-text">Dědek</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/kurim foto/Knihovna_Kuřim.jpg" alt="knihovna"><!--změn src na fotku-->
+                <div class="overlay-text">Knihovna</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/kurim foto/koně_kuřim.jpg" alt="koně"><!--změn src na fotku-->
+                <div class="overlay-text">Koně</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/kurim foto/kul.dům.Kuřim.jpg" alt="kul"><!--změn src na fotku-->
+                <div class="overlay-text">Kulturní&nbspdům</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/kurim foto/Kuřim vlajka.png" alt="vlajka"><!--změn src na fotku-->
+                <div class="overlay-text">vlajka&nbspKuřim</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/kurim foto/Kuřim-zamek.jpg" alt="zámek"><!--změn src na fotku-->
+                <div class="overlay-text">Zámek</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/kurim foto/Kuřim_Autobus.jpg" alt="Autobus"><!--změn src na fotku-->
+                <div class="overlay-text">Autobus</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/kurim foto/Kuřim_Kebab.jpg" alt="kebab"><!--změn src na fotku-->
+                <div class="overlay-text">Kebab</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/kurim foto/Kuřim_Znak.png" alt="znak"><!--změn src na fotku-->
+                <div class="overlay-text">znak&nbspKuřimi</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/kurim foto/letadlo1kurim.jpg" alt="letadlo"><!--změn src na fotku-->
+                <div class="overlay-text">Letadlo</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/kurim foto/nádraží_KU.jpg" alt="nádraží"><!--změn src na fotku-->
+                <div class="overlay-text">Nádraží</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/kurim foto/radnice_kuřim.jpg" alt="radnice"><!--změn src na fotku-->
+                <div class="overlay-text">Radnice</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/kurim foto/Tyršovka_Kuřim.jpg" alt="Tyršovka"><!--změn src na fotku-->
+                <div class="overlay-text">Tyršovka</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/kurim foto/Wellness_Kurim.jpg" alt="Wellness"><!--změn src na fotku-->
+                <div class="overlay-text">Wellness</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+        </div>    
+    </section>
+
+    <section>
+        <h1 id="slavkov">Slavkov</h1><!--název města-->
+        <div class ="gallery">
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/markiplier or napoleon.jpg" alt="markiplier napoleon"><!--změn src na fotku-->
+                <div class="overlay-text">Markiplier&nbspvs&nbspNapoleon</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/markiplier or senior.jpg" alt="markiplier senior"><!--změn src na fotku-->
+                <div class="overlay-text">Markiplier&nbspvs&nbspSenior</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/slavkov arnold.jpg" alt="arnold"><!--změn src na fotku-->
+                <div class="overlay-text">Arnold</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/slavkov autobusak.jpg" alt="autobusak"><!--změn src na fotku-->
+                <div class="overlay-text">Autobusák</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/slavkov autoservis.jpg" alt="autoservis"><!--změn src na fotku-->
+                <div class="overlay-text">Autoservis</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/slavkov cesta.jpg" alt="cesta"><!--změn src na fotku-->
+                <div class="overlay-text">Cesta</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/slavkov jesus.jpg" alt="Jesus"><!--změn src na fotku-->
+                <div class="overlay-text">Jesus</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/slavkov namesti.jpg" alt="namesti"><!--změn src na fotku-->
+                <div class="overlay-text">Náměstí</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/slavkov poliklinika.jpg" alt="poliklinika"><!--změn src na fotku-->
+                <div class="overlay-text">Poliklinika</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/slavkov servis vyhruzka.jpg" alt="servis"><!--změn src na fotku-->
+                <div class="overlay-text">Servis</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto//slavkov starosta.jpg" alt="starosta"><!--změn src na fotku-->
+                <div class="overlay-text">Starosta</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/slavkov u polikliniky.jpg" alt="poliklinika"><!--změn src na fotku-->
+                <div class="overlay-text">Poliklinika</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/slavkov urban.jpg" alt="urban"><!--změn src na fotku-->
+                <div class="overlay-text">Urban</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/slavkov vlajka.jpg" alt="vlajka"><!--změn src na fotku-->
+                <div class="overlay-text">vlajka&nbspSlavkova</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/slavkov vlakac.jpg" alt="vlakac"><!--změn src na fotku-->
+                <div class="overlay-text">vlakové&nbspnádraží</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/slavkov zamek.jpg" alt="zamek"><!--změn src na fotku-->
+                <div class="overlay-text">Zámek</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/slavkov foto/slavkov znak.png" alt="znak"><!--změn src na fotku-->
+                <div class="overlay-text">znak&nbspSlavkova</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+
+        </div>    
+    </section>
+
+    <section>
+        <h1 id="ostatni">Ostatní</h1><!--název města-->
+        <div class ="gallery">
+            <div class="image-wrapper">
+                <img src="../../foto/uvod foto/herdyn.jpg" alt="Herdyn"><!--změn src na fotku-->
+                <div class="overlay-text">Herdyn</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/uvod foto/JMK.jpg" alt="JMK"><!--změn src na fotku-->
+                <div class="overlay-text">JMK</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/uvod foto/nas_supr_dupr_tym.jpg" alt="nas tym"><!--změn src na fotku-->
+                <div class="overlay-text">Náš&nbsptým</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/uvod foto/racek_poster.png" alt="Ráček"><!--změn src na fotku-->
+                <div class="overlay-text">Ráček</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/uvod foto/SŠTE_škola.jpg" alt="SŠTE"><!--změn src na fotku-->
+                <div class="overlay-text">SŠTE</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/lore foto/trida plagat.png" alt="Martincitopants"><!--změn src na fotku-->
+                <div class="overlay-text">Martin&nbsp"Cito"&nbspKalhoty&nbsp<br>na&nbspSŠTE?</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+            <div class="image-wrapper">
+                <img src="../../foto/ostatní/niko.gif" alt="Niko"><!--změn src na fotku-->
+                <div class="overlay-text">OneShot&nbspNiko&nbsp:3&nbsp:P</div><!--název místa mezery dělej takto: &nbsp-->
+            </div>
+        </div>    
+    </section>
+
+    <section>
+    <h1 id="My">My</h1><!--název města-->
+    <div class ="gallery">
+        <div class="image-wrapper">
+            <img src="../../foto/trida/trida foto.jpg" alt="trida"><!--změn src na fotku-->
+            <div class="overlay-text">Naše&nbsptřída</div><!--název místa mezery dělej takto: &nbsp-->
+        </div>
+        <div class="image-wrapper">
+            <img src="../../foto/trida/nas tym.png" alt="tym"><!--změn src na fotku-->
+            <div class="overlay-text">Náš&nbsptým</div><!--název místa mezery dělej takto: &nbsp-->
+        </div>
+        <div class="image-wrapper">
+            <img src="../../foto/trida/trida foto jmena.png" alt="nase trida"><!--změn src na fotku-->
+            <div class="overlay-text">naše&nbsptřída</div><!--název místa mezery dělej takto: &nbsp-->
+        </div>
+    </div>    
+</section>
+
+    <!--NEMAZAT!!!! potřeba aby javascript fungoval-->
+    <div class="lightbox" id="lightbox">
+        <span class="close" id="closeBtn">&times;</span>
+        <img id="lightboxImg" src="../../foto/breclav foto/hrad.png" alt="">
+    </div>
+
+
+   <!--https://www.youtube.com/watch?v=phWxA89Dy94&t=11s --> 
+
+<script>
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const closeBtn = document.getElementById('closeBtn');
+    const galleryImages = document.querySelectorAll('.gallery img');
+
+    galleryImages.forEach(img => {
+    img.addEventListener('click', () => {
+        lightbox.style.display = 'flex';
+        lightbox.classList.remove('zoomed');
+        lightboxImg.src = img.src;
+    });
+    });
+
+    lightboxImg.addEventListener('click', () => {
+    lightbox.classList.toggle('zoomed');
+    });
+
+    closeBtn.addEventListener('click', () => {
+    lightbox.style.display = 'none';
+    lightboxImg.src = '';
+    });
+
+</script>    
+</body>
+</html>
